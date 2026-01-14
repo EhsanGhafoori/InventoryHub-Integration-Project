@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio website showcasing skills and projects">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <h1 class="logo">Portfolio</h1>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Welcome to My Portfolio</h2>
+            <p class="hero-subtitle">Web Developer & Designer</p>
+            <button class="cta-button" id="ctaButton">View My Work</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/500x400/4a90e2/ffffff?text=Portfolio+Image" alt="Professional portfolio header image" class="hero-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate web developer with expertise in HTML, CSS, and JavaScript. I love creating beautiful and functional websites that provide great user experiences.</p>
+                    <p>My skills include front-end development, responsive design, and modern web technologies.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/300x300/4a90e2/ffffff?text=Profile" alt="Profile picture of the developer" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/4a90e2/ffffff?text=Project+1" alt="Screenshot of Project 1 - Web Application" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Project 1</h3>
+                        <p class="project-description">A responsive web application built with modern technologies.</p>
+                        <a href="#" class="project-link" aria-label="View Project 1 details">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/4a90e2/ffffff?text=Project+2" alt="Screenshot of Project 2 - Mobile App" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Project 2</h3>
+                        <p class="project-description">An interactive mobile-first design with smooth animations.</p>
+                        <a href="#" class="project-link" aria-label="View Project 2 details">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/4a90e2/ffffff?text=Project+3" alt="Screenshot of Project 3 - E-commerce Site" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Project 3</h3>
+                        <p class="project-description">A full-stack e-commerce platform with modern UI/UX.</p>
+                        <a href="#" class="project-link" aria-label="View Project 3 details">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form" id="contactForm" aria-label="Contact form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: contact@example.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
