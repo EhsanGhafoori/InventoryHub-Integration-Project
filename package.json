@@ -1,0 +1,13 @@
+{
+  "name": "inventoryhub-integration",
+  "version": "1.0.0",
+  "description": "Full-stack InventoryHub - front-end/back-end integration with JSON API",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "node server/serve-client.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5"
+  }
+}
